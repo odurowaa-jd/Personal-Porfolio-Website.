@@ -86,3 +86,11 @@ function showSuccess() {
     successMessage.classList.remove("show");
   }, 3000);
 }
+
+/HAMBURGER MENU TOGGLE/
+const toggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+toggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
